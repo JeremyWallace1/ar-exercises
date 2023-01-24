@@ -17,4 +17,4 @@ puts "Total revenue (all stores) is #{@total_revenue}"
 puts "Average revenue (all stores) is #{@average_revenue}"
 # Output the number of stores that are generating $1M or more in annual sales. Hint: Chain together where and size (or count) Active Record methods.
 @number_of_high_revenue_stores = Store.where("annual_revenue >= ?", 1000000).count
-puts "Number of stores with annual revenue >= $1,000,00 is #{@number_of_high_revenue_stores}"
+puts "Number of stores with annual revenue >= $1,000,000 is #{@number_of_high_revenue_stores}"
